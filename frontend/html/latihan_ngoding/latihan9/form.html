@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Form</title>
+</head>
+<body>
+  <table border="0" cellspacin="0" cellpadding="10">
+    <tr>
+      <td><label for="username">Username: </label></td>
+      <td><input type="text" id="username"></td>
+    </tr>
+    <tr>
+      <td><label for="password">Password:</label></td>
+      <td><input type="password" id="password"></td>
+    </tr>
+    <tr>
+      <td>Jenis Kelamin: </td>
+      <td><input type="radio" name="jeniskelamin" id="wanita"> <label for="wanita">Wanita</label>
+        <input type="radio" name="jeniskelamin" id="pria"> <label for="pria">Pria</label></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hobbi:</td>
+      <td><input type="checkbox" name="" id="menyanyi"> <label for="menyanyi">Menyanyi</label>
+        <input type="checkbox" name="" id="menari"> <label for="menari">Menari</label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><textarea name="textarea" id="textarea" cols="40" rows="10"></textarea></td>
+    </tr>
+    <tr>
+      <td>Asal:</td>
+      <td>
+        <select name="select" id="select">
+          <option value="surabaya">surabaya</option>
+          <option value="sidoarjo">sidoarjo</option>
+          <option value="gresik">gresik</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="submit" value="Kirim!"></td>
+    </tr>
+  </table>
+</body>
+</html>

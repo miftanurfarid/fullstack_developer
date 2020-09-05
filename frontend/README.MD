@@ -41,7 +41,7 @@ Tag terdiri dari tag `<tag>` pembuka dan tag penutup `</tag>`
 
 5. List `<ul>` / unordered list, `<ol>` / ordered list, `<dl>` / definition list, `<dt>`
 
-6. Table `<table>`
+6. Table `<table>`, `<td>` / table data
 
 7. Form
 
