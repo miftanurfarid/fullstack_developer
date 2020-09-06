@@ -1,0 +1,10 @@
+body {
+  
+  /* background-color    : white;
+  background-image    : url(gambar/koala.png);
+  background-repeat   : no-repeat;
+  background-position : bottom right; */
+
+  /* shorthand di atas */
+  background: white url(gambar/koala.png) no-repeat bottom right;
+}
