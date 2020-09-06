@@ -1,0 +1,36 @@
+/* Selector element HTML */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  color: darkgreen;
+}
+
+p {
+  text-align: justify;
+}
+
+ul li a {
+  color: orange;
+}
+
+ol li a {
+  color: red;
+}
+
+#p1 {
+  color: darkcyan;
+}
+
+.p2 {
+  color: darkblue;
+}
+
+.cetak_tebal {
+  font-weight: bold;
+}
+
+p.cetak_tebal {
+  font-style: italic;
+}
