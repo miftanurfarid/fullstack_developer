@@ -1,0 +1,17 @@
+/* Belajar tentang text styling */
+
+h1 {
+  font-size : 100px;
+  color     : skyblue;
+}
+
+p {
+  text-indent : 75px;
+  text-align  : justify;
+  word-spacing: 10px;
+}
+
+a {
+  text-decoration : none;
+  color           : black;
+}
